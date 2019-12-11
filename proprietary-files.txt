@@ -33,13 +33,13 @@ vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
 vendor/lib/rfsa/adsp/libvpp_svc_skel.so
 
-# Alarm
-framework/vendor.qti.hardware.alarm-V1.0-java.jar
--vendor/app/PowerOffAlarm/PowerOffAlarm.apk
-vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
-vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
-vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.alarm@1.0.so
+# Alarm - from chiron-user 9 PKQ1.190118.001 V10.4.1.0.PDEMIXM release-keys
+-vendor/app/PowerOffAlarm/PowerOffAlarm.apk|460dd254f1f96d44f4eb00822fe93b44f1b6c3bf
+vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|b6a5750bbcd3881ee26bf42b1370c567420e0c71
+vendor/bin/power_off_alarm|459ccd83df3fcc076bb82bff60f47d14ad69ad6e
+vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|c9877b6cae0353d5fdea5bc23dba77101b3d6980
+vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|df138b77fb116a1a786a70c9c76b69d61b5c04d2
+vendor/lib64/vendor.qti.hardware.alarm@1.0.so|6f28bd9425af72d48266ff88b728c61f827571a8
 
 # ANT+ - from LA.UM.7.2.r1-06900-sdm660.0
 lib/com.qualcomm.qti.ant@1.0.so|5bb389a9ea1363030dbba310dd2305b887981359
