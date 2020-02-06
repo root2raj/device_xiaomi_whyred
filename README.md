@@ -6,7 +6,7 @@ Xiaomi Redmi Note 5 was announced and released in March 2018.
 
 ## Device specifications
 
-| Device       | Xiaomi Redmi Note 5                         |
+| Device       | Xiaomi Redmi Note 5 Pro                         |
 | -----------: | :---------------------------------------------- |
 | SoC          | Qualcomm SDM660 Snapdragon 636                  |
 | CPU          | 8x Qualcomm® Kryo™ 260 up to 1.8GHz             |
