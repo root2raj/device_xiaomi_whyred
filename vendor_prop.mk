@@ -243,3 +243,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.lmk.use_minfree_levels=true \
     ro.lmk.log_stats=true
 
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.havoc.maintainer=root2raj
