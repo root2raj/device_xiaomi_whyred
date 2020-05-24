@@ -90,6 +90,9 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
 
+# Build Type
+export HAVOC_BUILD_TYPE=Official
+
 # Alipay
 PRODUCT_PACKAGES += \
     org.ifaa.android.manager
