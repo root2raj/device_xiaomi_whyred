@@ -244,10 +244,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.havoc.maintainer=root2raj
 
-# Zygote preforking
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.device_config.runtime_native.usap_pool_enabled=true
-
 #Listen
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.audio.soundtrigger=nuance \
